@@ -1,6 +1,7 @@
 import Intro from './components/Intro'
 import NavigationBar from './components/NavigationBar'
 import Tranding from './components/Tranding'
+import SuperHero from './components/Superhero'
 import "./style/landingPage.css"
 
 function App() {
@@ -18,7 +19,14 @@ function App() {
         <Tranding />
       </div>
       {/* End Tranding section */}
+
+      {/* Superhero section */}
+      <div className='superhero'>
+        <SuperHero />
+      </div>
+      {/* end Superhero section */}
     </>
+    
   )
 }
 
